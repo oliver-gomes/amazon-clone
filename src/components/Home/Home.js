@@ -25,6 +25,7 @@ function Home() {
             title="GTRACING Gaming Chair Racing Office Computer Game Chair Ergonomic Backrest and Seat Height Adjustment "
             price={159.99}
             image="https://m.media-amazon.com/images/I/4172ekEXikL._AC_SL260_.jpg"
+            rating={4}
           />
         </div>
         <div className="home__row">
@@ -32,16 +33,19 @@ function Home() {
             title="$10 PlayStation Store Gift Card [Digital Code]"
             price={10.0}
             image="https://images-na.ssl-images-amazon.com/images/I/71cCI9QPwYL._AC_UL480_SR333,480_.jpg"
+            rating={4}
           />
           <Product
             title="The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich"
             price={14.99}
             image="https://images-na.ssl-images-amazon.com/images/I/81qW97ndkvL._AC_UL270_SR178,270_.jpg"
+            rating={5}
           />
           <Product
             title="Kindle Paperwhite – Now Waterproof with more than 2x the Storage "
             price={129.99}
             image="https://images-na.ssl-images-amazon.com/images/I/61eAq6gg-XL._AC_UL200_SR200,200_.jpg"
+            rating={5}
           />
         </div>
         <div className="home__row">
@@ -49,6 +53,7 @@ function Home() {
             title="Echo Dot (3rd Gen) - Smart speaker with Alexa - Charcoal"
             price={49.99}
             image="https://images-na.ssl-images-amazon.com/images/I/6182S7MYC2L._AC_UL200_SR200,200_.jpg"
+            rating={5}
           />
         </div>
       </div>
