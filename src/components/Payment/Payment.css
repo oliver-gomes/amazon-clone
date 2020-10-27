@@ -1,0 +1,135 @@
+.payment__container {
+  background-color: white;
+}
+
+.payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__container > h1 a {
+  text-decoration: none;
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+  flex: 0.2;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.8;
+}
+
+/* .payment__details {
+  display: flex;
+} */
+
+/* .payment__help {
+  margin-left: 20px;
+  flex: 0.5;
+} */
+.payment__help {
+  text-align: left;
+  margin-left: -80px;
+}
+
+.payment__help > h2 {
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: -40px;
+}
+.payment__details > form {
+  max-width: 400px;
+  flex: 0.5;
+}
+
+.payment__details > form > div > button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  font-weight: bolder;
+  margin: 10px 0;
+  border-color: #a88734 #9c8e31 #846a29;
+  color: #111;
+}
+
+.payment__details > form > div > button:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+/* .StripeElement {
+  box-sizing: border-box;
+
+  height: 40px;
+
+  padding: 10px 12px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+  margin-bottom: 20px;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+} */
+
+/* Alert */
+
+.alert__basket,
+.alert__user {
+  padding: 20px;
+  background-color: #ee6055; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  animation-name: backgroundColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 5px;
+}
+/* Standard syntax */
+@keyframes backgroundColorPalette {
+  0% {
+    background: #ee6055;
+  }
+
+  50% {
+    background: #ffd97d;
+  }
+  100% {
+    background: #ff9b85;
+  }
+}
