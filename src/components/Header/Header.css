@@ -2,12 +2,15 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background: #131921;
+  background-color: #131921;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
+.header > .header__nav > a {
+  text-decoration: none;
+}
 .header__logo {
   width: 100px;
   object-fit: contain;
@@ -35,6 +38,28 @@
   background-color: #cd9042;
 }
 
+.header__optionLineOne {
+  font-size: 11px;
+}
+
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.header__basketCount {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
 .header__nav {
   display: flex;
   justify-content: space-evenly;
@@ -46,23 +71,4 @@
   margin-left: 10px;
   margin-right: 10px;
   color: white;
-}
-
-.header__optionLineOne {
-  font-size: 10px;
-}
-
-.header__optionLineTwo {
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.header__optionBasket {
-  display: flex;
-  align-items: center;
-  color: white;
-}
-
-.header__basketCount {
-  margin: 0px 10px;
 }
